@@ -6,9 +6,11 @@ import { Link } from 'react-router-dom';
 const Support = () => {
   const faqs = [
     { q: "How do I change control methods?", a: "You can change controls in the Settings menu from the main dashboard. Choose between Tilt, Drag, or Steering Wheel." },
-    { q: "Is Drifty free to play?", a: "Yes, Drifty is free to download and play. We use ads to support development, but you can remove them via an in-app purchase." },
-    { q: "My game is lagging, what should I do?", a: "Make sure you have the latest iOS update and close any heavy background apps. Drifty is optimized for iPhone 11 and newer." },
-    { q: "How do I save my progress?", a: "Your progress is automatically saved to iCloud if you are logged in on your device." }
+    // { q: "Is Drifty free to play?", a: "Yes, Drifty is free to download and play. We use ads to support development, but you can remove them via an in-app purchase." },
+    { q: "Is Drifty free to play?", a: "Yes, Drifty is free to download and play. We use ads to support development" },
+    { q: "My game is lagging, what should I do?", a: "Make sure you have the latest iOS update and close any heavy background apps. Drifty is optimized for iPhone 11 and newer." }
+    // { q: "How do I save my progress?", a: "Your progress is automatically saved to iCloud if you are logged in on your device." }
+    //   { q: "How do I save my progress?", a: "Your progress is automatically saved to iCloud if you are logged in on your device." }
   ];
 
   return (
